@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  background-color: #353535;
+  background-image: url("./images/BG_Grid2.png");
+  background-size: 32px;
+  background-repeat: repeat-y repeat-x;
+  color: rgb(199, 189, 130);
+}
+
+.window {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #888;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  color: inherit;
+  border: 1px solid #888;
+  border-radius: 2px;
+  padding: 15px;
+  padding-top: 5px;
+  width: fit-content;
+  height: fit-content;
+  background-color: #202020cc;
+  z-index: 5;
+}
+
+.workbench {
+  background-color: inherit;
+  width: 100%;
+  height: 95vh;
+  background-size: inherit;
+}
+
+.menuform {
+  list-style: none;
+  font-family: inherit;
+  display: inline-flex;
+  border-style: hidden hidden solid hidden;
+  border-width: 1px;
+  border-color: inherit;
+  color: inherit;
+  padding: 0.5rem;
+  outline: none;
+  background-color: inherit;
+  z-index: 5;
+}
+
+.menuform:hover {
+  filter: drop-shadow(0px 0px 1px white);
+}
+
+.top-menu {
+  list-style-type: none;
+  margin: 0;
+  padding-left: none;
+  overflow: hidden;
+  font-family: inherit;
+  color: inherit;
+  background-color: #333;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.top-menu li {
+  float: left;
+  list-style: none;
+}
+.top-menu button {
+  float: left;
+  list-style: none;
+}
+
+li a:hover {
+  filter: drop-shadow(0px 0px 1px white);
+}
+
+.top-menu-tab {
+  font-size: 16px;
+  display: block;
+  text-align: left;
+  padding: 5px;
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+  width: fit-content;
+  height: 1.5rem;
+  border-radius: 2px;
+  border-style: solid solid hidden solid;
+  border-width: 1px;
+  border-color: #888;
+  background-color: #444;
+}
+
+.tab-button {
+  border-style: hidden;
+  background-color: inherit;
+  color: inherit;
+  float: right;
+}
+.tab-button:hover {
+  filter: drop-shadow(0px 0px 1px white);
+}
+
+.node {
+  position: absolute;
+  font-family: inherit;
+  color: inherit;
+  padding: 1px;
+  width: calc( + 150px);
+  height: fit-content;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #888;
+  background-color: #202020cc;
+}
+
+.func {
+  position: absolute;
+  font-family: inherit;
+  color: inherit;
+  padding: 6px;
+  width: 241px;
+  height: fit-content;
+  border-radius: 1px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #888;
+  background-color: #00000065;
+  z-index: 1;
+}
+
+.line {
+  position: absolute;
+  color: inherit;
+  transform: translate(0%, 0%);
+  height: 16px;
+  background-image: url("./images/arrow_line.png");
+  background-size: 16px;
+  background-repeat: repeat-x;
+  background-color: inherit;
+  border-style: hidden;
+  z-index: 2;
+}
+
+.variable {
+  position: absolute;
+  font-family: inherit;
+  color: inherit;
+  padding: 6px;
+  width: 241px;
+  height: fit-content;
+  border-radius: 1px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #888;
+  background-color: #00000065;
+}
+
+.node-title {
+  color: inherit;
+  font-size: large;
+  font-weight: bold;
+  padding: 5px;
+  text-align: left;
+  align-items: stretch;
+  border-radius: inherit;
+  width: 100%;
+  height: 15%;
+}
